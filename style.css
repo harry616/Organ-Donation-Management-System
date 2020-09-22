@@ -1,0 +1,91 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	background-image: url(maina.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+
+}
+.main-nav li
+{
+	display: inline-block;  
+}
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto",sans-serif;
+	font-size: 20px;
+
+}
+.main-nav li.active a
+{
+border: 2
+px solid orange;
+}
+.main-nav li a:hover
+{
+	color: #255784;
+	background: #CCFF00;
+	box-shadow: 0 0 10px #CCFF00, 0 0 40px #CCFF00, 0 0 80px #CCFF00;
+}
+
+
+.logo img
+{
+	width: 300px;
+	height: auto;
+	float:left;
+}
+body
+{
+	font-family: monospace;
+}
+.row
+{
+	max-width: 1400px;
+	margin: auto;
+}
+.hero
+{
+	position: absolute;
+	width: 1200px;
+	margin-left: 0px;
+	margin-top: 0px;
+
+}
+h1
+{
+	color: white;
+	text-transform: uppercase;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 515px;
+}
+.button
+{
+	margin-top: 35px
+	margin-bottom: 464px;
+}
+.btn
+{
+	border: 1px solid white:
+	padding:10px 30px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
