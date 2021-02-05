@@ -2,7 +2,11 @@
 Overview
 This report discusses the result of the work done in development of "Websites for Organ donation on "HTML" and "PHP" Front-end Platform and “My sql” as back-end Platform. At the development of an application PHP provides a good connecting facility between all pages, also the back-end My sql is most important to save all the data related the application.
 
+
+
 Queries designed using SQL commands
+
+
 Alter
 ALTER TABLE useraccount ADD CONSTRAINT userID PRIMARY KEY(userID);
 
